@@ -1,0 +1,633 @@
+.nav-main {
+    position: relative;
+}
+
+
+
+
+.video-background {
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+.header {
+    height: 50px;
+    top: 0%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1PX white dashed;
+
+    a {
+        color: white;
+    }
+
+
+    a:hover {
+        color: yellow;
+    }
+}
+
+
+
+
+.nav-bar-position {
+    position: absolute;
+    top: 25%;
+
+
+
+    li a {
+        text-decoration: none;
+
+    }
+
+    h5 {
+
+        display: flex;
+        align-items: center;
+        font-size: 27px;
+        border-top: 1px white dashed;
+        border-bottom: 1px white dashed;
+        height: 50px;
+        margin: 0;
+        color: white;
+
+
+    }
+
+
+    h5:hover {
+        color: yellow;
+    }
+
+
+
+
+    img {
+        width: 400px;
+    }
+
+    ul {
+        gap: 15px;
+    }
+}
+
+
+.toggle {
+    display: none;
+}
+
+
+.main-title {
+
+    position: absolute;
+    top: 55%;
+    left: 8%;
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 85px;
+    }
+
+
+}
+
+
+
+.text-img {
+
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 435px;
+    }
+
+}
+
+
+.card-container-1 {
+
+    background-image: url(img/back-1img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+.high-way-pic-content {
+
+    h1 {
+        color: #fff !important;
+    }
+
+    p {
+        color: gray !important;
+    }
+}
+
+.background-img {
+
+    p {
+        color: #fff !important;
+    }
+
+}
+
+// cards css 
+
+.left-icon {
+    position: absolute;
+    left: -35%;
+    color: #fff !important;
+}
+
+.right-icon {
+    position: absolute;
+    right: -35%;
+    color: #fff !important;
+}
+
+.card-border {
+    padding: 15px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+
+    h5 {
+        color: #fff;
+
+    }
+
+    p {
+        color: #fff;
+    }
+
+    img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+
+}
+
+.card-countainer-2 {
+    display: none;
+    background-image: url(img/back-1img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.card {
+    border: 5px solid white !important;
+}
+
+
+.cards-border {
+
+
+    border-radius: 15px;
+    width: 20rem;
+    border: 8px solid white;
+
+
+
+}
+
+
+.carousel-inner {
+    width: 90% !important;
+    overflow: hidden;
+}
+
+.card {
+    width: 100%;
+
+    border: 3px solid rgb(12, 12, 12);
+    margin: auto;
+}
+
+
+.card-border {
+
+    justify-content: center;
+    display: flex;
+    height: 370px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    border: 3px solid white;
+
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+}
+
+
+.number-section {
+    height: 230px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    a {
+        font-weight: bold;
+        font-size: 23px;
+        color: black;
+        background-color: #f8b712;
+
+    }
+
+    h2 {
+
+        font-weight: 100 !important;
+
+
+    }
+
+    h1:hover {
+        color: #e4af2b !important;
+        border-bottom: 5px solid #e4af2b;
+    }
+
+    h1 {
+        height: 50px;
+        transition: 0.060s;
+    }
+
+    a:hover {
+        background-color: #f8b712;
+        color: white;
+    }
+}
+
+
+
+
+
+.card-container-3 {
+    background-image: url(img/back-img-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    h1 {
+        color: #fff !important;
+
+
+    }
+
+
+
+}
+
+// cards css 
+
+.left-icon {
+    position: absolute;
+    left: -35%;
+    color: #fff !important;
+}
+
+.right-icon {
+    position: absolute;
+    right: -35%;
+    color: #fff !important;
+}
+
+.card-border-2 {
+
+
+    border-radius: 20px;
+
+
+
+
+    img {
+        height: 325px;
+        width: 320px;
+        object-fit: cover;
+    }
+
+
+}
+
+
+.card-width {
+    width: 33% !important;
+}
+
+
+
+.card-width-2 {
+    border: 2px solid white;
+
+
+    img {
+        height: 288px;
+    }
+}
+
+.places-cards {
+    padding: 0;
+    width: 18% !important;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    border: 1px solid rgb(133, 132, 132);
+}
+
+
+
+.places-card-width {
+
+    width: 100%;
+
+
+}
+
+
+.desing {
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    h1 {
+        color: white;
+    }
+}
+
+
+
+
+
+
+.carousel-item-bank img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.card-mobile {
+    width: 95%;
+
+}
+
+
+.carousel-inner-bank {
+    height: 375px;
+    margin-left: 75px;
+    width: 495px !important;
+}
+
+
+.border-3 {
+
+    border: 1px solid rgb(124, 123, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+}
+
+.card-container-5 {
+    display: none !important;
+
+}
+
+.desing-2 {
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.card-container-6 {
+
+    background-image: url(img/back-img-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+    display: none;
+    padding: 5%;
+
+}
+
+
+.carousel-item-places img {
+    width: 89%;
+    height: 525px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-mobile-2 {
+    width: 100%;
+
+}
+
+.carousel-inner-places {
+    margin-left: 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bullet-slider .bullet-slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 200px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+}
+
+.bullet-slider .mySlides {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.bullet-slider .text-container {
+    h1 {
+        color: #dcb658 !important;
+    }
+
+
+    color:white;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+/* 🔥 REMOVE Prev & Next Buttons */
+
+.bullet-slider .row {
+    height: 50vh;
+
+}
+
+.bullet-slider {
+    background-image: url(img/back-1img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Dots */
+.bullet-slider .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.bullet-slider .active,
+.bullet-slider .dot:hover {
+    background-color: #717171;
+}
+
+
+
+.comment-logo {
+    img {
+        width: 300px;
+        object-fit: cover;
+    }
+
+    height: 110px;
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.hover-cards {
+
+    img {
+        border-radius: 15px;
+        transition: 0.60s;
+    }
+
+    overflow: hidden;
+
+    img:hover {
+        transform: scale(1.3) rotate(12deg);
+    }
+}
+
+
+.hover-cards {
+    overflow: hidden;
+}
+
+.special-color {
+
+    color: #dcb658;
+
+}
+
+.footer-button{
+   padding: 10px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    color: black;
+    font-weight: 600 !important;
+    background-color: #f1d07e !important;
+
+    &:hover{
+        background-color: #f7e4b5;
+        color: black !important;
+
+    }
+}
+
+.specily-hover li :hover{
+color:  #dcb658 !important;
+}
+
+.special-button-1{
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color:rgba(27, 1, 1, 0.486);
+    &:hover{
+        border: 3px solid rgb(27, 1, 1);
+    }
+}
+
+.footer-back{
+    background-image:url(img/back-img-4.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.scrolbuttondad{
+    height: 70px;
+    position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    border-top: #717171 5px solid;
+
+    .scrollTopButton{
+position: absolute;
+color:white;
+width:  120px;
+height: 60px;
+border-top-left-radius: 120px;
+border-top-right-radius: 120px;
+top:-100%;
+background-color: rgba(0, 0, 0, 0.555);
+font-size: 30px;
+border-top: 5px solid rgba(231, 230, 230, 0.705);
+
+    }
+}
